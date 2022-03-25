@@ -467,12 +467,12 @@ div.line-pink-vertical {
 }
 
 div.line-horizontal-project {
-    width: 22rem !important;
+    width: 35rem !important;
     border-top: 2px solid;
     opacity: 50%;
     padding: 0;
     display: flex;
-    margin: 0 0 0 -3rem;
+    margin: 0 0 0 -12rem;
 }
 
 div.pink {
@@ -626,8 +626,7 @@ margin-top: 5rem;
 
 .btn-1{
     background-color: DodgerBlue;
-    border: none;
-    margin: 4rem 0 0 32rem;
+    margin: 4rem 0 0 36rem;
     border-radius: 10px;
     color: white;
     padding: 12px 30px;
