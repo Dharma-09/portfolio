@@ -1,0 +1,30 @@
+.grid{
+  margin:80px;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:30px
+}
+ .grid > article{
+   background: --var;
+   border: none;
+   box-shadow: none;
+   border-radius: 20px;
+   text-align: center;
+   width:310px;
+ }
+.grid > article img{
+  width:100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+ @media (max-width:760px){
+   .grid{
+     grid-template-columns: repeat(2,1fr);
+   }
+ }
+ @media (max-width:500px){
+  .grid{
+    grid-template-columns: repeat(1,1fr);
+  }
+}

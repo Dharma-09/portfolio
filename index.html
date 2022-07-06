@@ -10,6 +10,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" class="rel">
+    <link rel="stylesheet" href="css/style2.css" class="rel">
     <title>Portfolio</title>
   </head>
   <div >
@@ -268,7 +269,7 @@
           <div class="col">
             <i class="fab fa-github github"></i>
           </div>
-        </div>
+        </div> 
       </div>
       <!--Line vertically-->
       <div class="container">
@@ -295,7 +296,7 @@
       <div class="container moving-project-one">
         <div class="row"></div>
         <!--My Projects container-->
-        <div class="container-fluid moving-up-projects moving-project-one" id="projects">
+        <div class="container-fluid moving-up-projects moving-project-one card-deck" id="projects">
           <div class="row">
             <div class="col-12 d-flex justify-content-center">
               <h3 class="project-tittle">My projects</h3>
@@ -304,63 +305,89 @@
             <div class="col-sm-10 d-flex justify-content-center">
               <h4 class="best-work">A selection of my best projects.</h4>
             </div>
-            <!--1st project-->
-            <div class="col-6 d-none d-lg-block d-xl-block">
-              <a
-                href="https://github.com/Dharma-09/Go_Chat"
+          <div class="container">
+            <main class="grid">
+              <article>
+                <a
+                href="https://github.com/Dharma-09/Go_Chart"
                 target="_blank">
                 <img
-                  class="project-one img-fluid"
+                  class="project-h img-fluid"
                   src="images/project1.jpg"
-                  alt="Image of GoChat"
-                  /></a>
-            </div>
-            <!--1st project mobile-->
-            <div
-              class="col-12
-              d-flex
-              justify-content-center
-              d-md-block d-lg-none d-xl-none" align="center">
-              <a
-                href="https://github.com/Dharma-09/Go_Chat"
-                target="_blank">
-                <img
-                  class="project-one-mobile img-fluid"
-                  src="images/project1.jpg"
-                  alt="Image of GoChat"
+                  alt="Image of Go-Chart"
                   />
               </a>
-            </div>
-            <!--2nd Project-->
-            <div class="col-6 d-none d-lg-block d-xl-block">
-              <a
+                  <div >
+                    <h3 class="text">Go-Chart</h3>
+                    <p class="go-des">Building a TCP chat server using Go, which enables clients to communicate with each other</p>
+                  </div>
+              </article>
+              <article>
+                <a
                 href="https://github.com/Dharma-09/JangoToDo"
                 target="_blank">
                 <img
-                  class="project-two img-fluid"
+                  class="project-h img-fluid"
                   src="images/project2.jpg"
                   alt="Image of JangoToDo"
                   />
               </a>
-            </div>
-            <!--2nd project mobile-->
-            <div
-              class="col-12
-              d-flex
-              justify-content-center
-              d-md-block d-lg-none d-xl-none" align="center">
-              <a
-                href="https://github.com/Dharma-09/JangoToDo"
+                  <div >
+                    <h3 class="text">JangoToDo</h3>
+                    <p class="d-des"> Django ToDo list web application</p>
+                  </div>
+              </article>
+              <article>
+                <a
+                href="https://github.com/Dharma-09/Mozart"
                 target="_blank">
                 <img
-                  class="project-two-mobile img-fluid"
-                  src="images/project2.jpg"
-                  alt="Image of JangoToDo"
+                  class="project-h img-fluid"
+                  src="images/project3.jpg"
+                  alt="Image of Mozart"
                   />
               </a>
-            </div>
+                  <div >
+                    <h3 class="text">Mozart</h3>
+                    <p class="des">Payment processing and digital money transfers Dapps using react and solidity</p>
+                  </div>
+              </article>
+            </main>
           </div>
-        </div>
+            <div class="container"> 
+              <main class="grid-2">
+                <article class="project-4">
+                  <a
+                  href="https://github.com/Dharma-09/FindBlock"
+                  target="_blank">
+                  <img
+                    class="project-h img-fluid"
+                    src="images/project4.jpg"
+                    alt="Image of FindBlock"
+                    />
+                </a>
+                    <div >
+                      <h3 class="text ">FindBlock</h3>
+                      <p class="f-des">ERC-721 based memory game using Web3,truffle,solidity and react</p>
+                    </div>
+                </article>
+                <article class="project-5">
+                  <a
+                  href="#"
+                  target="_blank">
+                  <img
+                    class="project-h img-fluid"
+                    src="images/project5.png"
+                    alt="Image of pollux"
+                    />
+                </a>
+                    <div >
+                      <h3 class="text">Pollux</h3>
+                      <p class="p-des">Solona to tezos token exchange Web3 application</p>
+                    </div>
+                </article>
+              </main>
+            </div>
         <!--Vertical Line-->
         
         <!--About me -->
@@ -470,9 +497,9 @@
       <div class="container-fluid background-conbtn">
         <div class="row">
           <!--Line-->
-          <div class="container d-flex justify-content-center">
+          <!-- <div class="container d-flex justify-content-center">
             <div class="line-footer" id="contact"></div>
-          </div>
+          </div> -->
           <div class="col-12 padding-footer">
             <h3
               align="center"
