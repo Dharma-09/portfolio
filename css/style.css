@@ -514,7 +514,7 @@ h4.best-work {
 }
 
 .grid {
-    margin: 80px;
+    margin: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px
@@ -600,7 +600,8 @@ h4.best-work {
 }
 @media (max-width:760px) {
     .grid {
-        width: 100px;
+        width: 200px;
+        height: 200px;
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -805,13 +806,13 @@ div.line-footer1 {
 .background-conbtn {
     background: #202040;
     height: fit-content;
-    width: auto;
+    width: 100%;
 }
 
 .background-conbtn-0 {
     background: var(--dark-background);
     height: fit-content;
-    width: auto;
+    width:100%;
 }
 
 h3.size-quote {
@@ -1621,4 +1622,33 @@ a.link-email:hover {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
     transition: 0.5s all;
+}
+.left-effects {
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: #c471ed;
+    -webkit-filter: blur(100px);
+    filter: blur(100px);
+    opacity: 0.25;
+    pointer-events: none;
+    z-index: -1;
+}
+.right-effects {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    bottom: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: #f64f59;
+    -webkit-filter: blur(100px);
+    filter: blur(100px);
+    opacity: 0.25;
+    pointer-events: none;
+    z-index: -1;
 }
